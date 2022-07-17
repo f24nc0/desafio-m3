@@ -1,0 +1,481 @@
+body {
+  box-sizing: border-box;
+  margin: 0 0;
+}
+
+.seccion-uno {
+  height: 620px;
+  width: 100%;
+  background-image: url(./imgs/puntitos.png);
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .seccion-uno {
+    background-image: url(./imgs/puntitos2.png);
+  }
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .header {
+    height: 181px;
+  }
+}
+
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-header {
+    padding: 36px 103px 36px 80px;
+  }
+}
+
+.logo-header {
+  height: 54px;
+  width: 54px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .logo-header {
+    height: 109px;
+    width: auto;
+  }
+}
+
+.hamburguesa {
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .hamburguesa {
+    display: none;
+  }
+}
+
+.botones-lateral {
+  display: none;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .botones-lateral {
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    height: auto;
+  }
+}
+
+.boton-header {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contenedor-seccion-uno {
+  height: 454px;
+  padding: 76px 26px 0 26px;
+  justify-content: center;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-seccion-uno {
+    height: 395px;
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 84px 0 84px;
+  }
+}
+
+.titulo-seccion-uno {
+  font-family: Open Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  text-align: center;
+  margin: auto;
+  width: 291px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .titulo-seccion-uno {
+    text-align: left;
+    margin: 79px auto auto 0;
+    width: 291px;
+  }
+}
+
+.pepeswag {
+  margin: 58px auto 0 auto;
+  height: 300px;
+  width: auto;
+  display: block;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .pepeswag {
+    margin: 0 0 0 0;
+    height: 395px;
+  }
+}
+
+.contenedor-seccion-dos {
+  background-color: #000;
+  padding: 55px 0 68px 0;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-seccion-dos {
+    padding: 132px 0 169px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 90px;
+  }
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .titulo-y-texto-seccion-dos {
+    max-width: 532px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+}
+
+.subtitulo {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin: 0;
+}
+
+.titulo-seccion-dos {
+  color: antiquewhite;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .titulo-seccion-dos {
+    text-align: left;
+  }
+}
+
+.texto-seccion-dos {
+  margin: 41px 32px 57px 32px;
+  height: 193px;
+  width: auto;
+  color: antiquewhite;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .texto-seccion-dos {
+    margin: 0;
+    height: 165px;
+    width: 100%;
+  }
+}
+
+.logo-code {
+  display: block;
+  margin: auto;
+  height: 80px;
+  width: auto;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .logo-code {
+    height: 211px;
+    width: auto;
+    margin: 0;
+  }
+}
+
+.contenedor-seccion-tres {
+  padding: 69.76px 0 66px 0;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-seccion-tres {
+    padding: 59px 0 108px 0;
+  }
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .titulo-seccion-tres {
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+}
+
+.contenedor-conjuntos-seccion-tres {
+  display: flex;
+  flex-direction: column;
+  gap: 108.99px;
+  padding: 56px 56px 0 56px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-conjuntos-seccion-tres {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 76px 85px 0 85px;
+  }
+}
+
+.imagen-conjunto-seccion-tres {
+  display: block;
+  margin: auto;
+  width: 138px;
+  height: auto;
+}
+
+.texto-conjunto-seccion-tres {
+  text-align: center;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .texto-conjunto-seccion-tres {
+    max-width: 262px;
+  }
+}
+
+.contenedor-seccion-cuatro {
+  background-color: #000;
+  padding: 70px 20px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-seccion-cuatro {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    padding: 116px 0 116px 0;
+  }
+}
+
+.titulo-seccion-cuatro {
+  color: antiquewhite;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .titulo-seccion-cuatro {
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-align: right;
+  }
+}
+
+.sub-subtitulo {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 19px auto 16px auto;
+}
+
+.form {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-nombre {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+  margin: 36.42px 0 9px 0;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .titulo-nombre {
+    margin-top: 0;
+  }
+}
+
+.nombre {
+  box-sizing: border-box;
+  width: 335px;
+  height: 45px;
+}
+
+.titulo-mail {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+  margin: 27px 0 9px 0;
+}
+
+.mail {
+  box-sizing: border-box;
+  width: 335px;
+  height: 45px;
+}
+
+.conjunto-mensaje {
+  padding-bottom: 60px;
+}
+
+.titulo-mensaje {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+  margin: 21px 0 9px 0;
+}
+
+.mensaje {
+  box-sizing: border-box;
+  width: 335px;
+}
+
+.boton-enviar {
+  width: 335px;
+  height: 45px;
+  background-color: #ffd953;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contenedor-seccion-cinco {
+  padding: 53px 20px 113px 20px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .contenedor-seccion-cinco {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 215px 95px 80px;
+  }
+}
+
+.logo-footer {
+  width: 77px;
+  height: auto;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .logo-footer {
+    width: 112px;
+    height: auto;
+  }
+}
+
+.copyright {
+  margin: 18px 0 0 0;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .copyright {
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+}
+
+.seccion-cinco {
+  background-color: #dbdbdb;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .seccion-cinco {
+    background-image: url(./imgs/puntitos2.png);
+  }
+}
+
+.bloque-uno-seccion-cinco {
+  padding: 0 0 85px 0;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .bloque-uno-seccion-cinco {
+    padding: 0;
+  }
+}
+
+.bloque-dos-seccion-cinco {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 800px) and (orientation: landscape) {
+  .bloque-dos-seccion-cinco {
+    gap: 35px;
+  }
+}
+
+.socials-logo {
+  display: inline;
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.socials-names {
+  display: inline;
+  vertical-align: middle;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
